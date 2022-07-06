@@ -1,3 +1,174 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-image: url(images/donation1.jpg);
+    background-size: cover;
+}
+.human{
+    width: 100%;
+    height: 100%;
+    font-size: 35px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+ .human p{
+    text-align: justify;
+    font-size: 20px;
+ }
+
+
+ .container{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    
+    
+    text-decoration: none;
+    background-color: tomato;
+    background-image: linear-gradient(rgb(255, 68, 0), tomato);
+    color: white;
+    font-weight: 700;
+    
+   
+
+}
+.donet{
+    text-align: center;
+    font-size: 25px;
+    margin: 0px;
+}
+.taka{
+    
+    text-align: center;
+    justify-content: space-between;
+   text-decoration: none;
+    display: inline-block;
+    background-color: white;
+    background-image: linear-gradient(rgb(180, 173, 171), tomato);
+    color: white;
+    font-weight: 700;
+    padding: 10px 40px;
+    margin:10px 20px ;
+    text-align: center;
+    
+    
+}.donet p{
+    text-align: justify;
+    font-size: 20px;
+}
+.other{
+    text-align: center;
+    color: darkgrey;
+    font-size: 20px;
+}
+.plan{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
 h1{
-    color: bisque;
+    font-size: 35px;
+    font-weight: 600;
+}
+.working-plan{
+    text-align: center;
+    font-size: 20px;
+}
+.working-plan p{
+    text-align: center;
+    font-size: 18px;
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.working-plan{
+    flex-basis: 31%;
+    background: #fff3f3;
+    margin-bottom: 40%;
+    padding: 80px 5px;
+    box-sizing: border-box;
+}
+.working-working{
+    flex-basis: 31%;
+    background: #ebed90;
+    margin-bottom: 40%;
+    padding: 80px 5px;
+    box-sizing: border-box;
+
+}
+.working-planing{
+    flex-basis: 31%;
+    background: #a4c6dc;
+    margin-bottom:40% ;
+    padding:80px 5px ;
+    box-sizing: border-box;
+}
+
+.bollom{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 10%;
+}
+.half-width img{
+    width: 80%;
+}
+.jabo{
+    text-decoration: none;
+    background-color: orangered;
+    padding: 2px 20px;
+    font-weight: 500;
+    border-radius: 10px;
+}
+.manob-seba{
+    text-decoration: none;
+    background-color: orangered;
+    padding: 2px 20px;
+    font-weight: 500;
+    border-radius: 5px;
+
+}
+.update{
+    text-align: center;
+    font-size: 36;
+    margin: 40px;
+} .mail{
+    text-align: center;
+    width: 50%;
+    margin: 010px 30px;
+    padding: 30px;
+    margin-left: 30%;
+    background-color: #f4f4c5;
+
+}
+.btn{
+    text-align: center;
+    color: beige;
+    font-size: 15px;
+    background-color: red;
+    margin: 0px;
+    padding: 0px;
+
+}
+.foot{
+    text-align: center;
+    font-size: 15px;
+    color: aliceblue;
+    background-color: black;
+    margin: 40px 40px;
+    padding:0px ;
 }

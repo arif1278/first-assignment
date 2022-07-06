@@ -52,7 +52,7 @@
    text-decoration: none;
     display: inline-block;
     background-color: white;
-    background-image: linear-gradient(rgb(180, 173, 171), tomato);
+    background-image: linear-gradient(rgb(180, 171, 180), rgb(249, 12, 12));
     color: white;
     font-weight: 700;
     padding: 10px 40px;
@@ -60,7 +60,17 @@
     text-align: center;
     
     
-}.donet p{
+}
+.select{
+    text-decoration: none;
+    font-weight: 900;
+    width: 550px;
+    height: 550px;
+    top: 50%;
+    left: 50%;
+    border: 4px solid #eda390;
+}
+.donet p{
     text-align: justify;
     font-size: 20px;
 }
@@ -94,6 +104,11 @@ h1{
     justify-content: space-between;
 
 }
+.row img{
+    width: 40px;
+    height: 40px;
+    margin:5px;
+}
 .working-plan{
     flex-basis: 31%;
     background: #fff3f3;
@@ -109,12 +124,21 @@ h1{
     box-sizing: border-box;
 
 }
+.working-working img{
+    width: 40px;
+    height: 40px;
+}
 .working-planing{
     flex-basis: 31%;
     background: #a4c6dc;
     margin-bottom:40% ;
     padding:80px 5px ;
     box-sizing: border-box;
+}
+.row working-planing img{
+    width: 40px;
+    height: 40px;
+   
 }
 
 .bollom{
